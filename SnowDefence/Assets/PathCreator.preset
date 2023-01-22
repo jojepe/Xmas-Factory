@@ -1,0 +1,708 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PathCreator
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 8e5ac92bc18f545cc84cd886ece82b4d,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.size
+    value: 40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[0].x
+    value: -1.7091777
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[0].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[0].z
+    value: 0.65367496
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[1].x
+    value: -1.6169956
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[1].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[1].z
+    value: 0.6676639
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[2].x
+    value: -1.6373094
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[2].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[2].z
+    value: 0.67393047
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[3].x
+    value: -1.5001278
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[3].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[3].z
+    value: 0.5927767
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[4].x
+    value: -1.3737983
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[4].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[4].z
+    value: 0.49974948
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[5].x
+    value: -1.4602625
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[5].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[5].z
+    value: -0.105991445
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[6].x
+    value: -1.2832867
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[6].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[6].z
+    value: -0.19642565
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[7].x
+    value: -1.2077386
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[7].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[7].z
+    value: -0.2784881
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[8].x
+    value: -0.9389438
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[8].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[8].z
+    value: -0.2741918
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[9].x
+    value: -0.8912723
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[9].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[9].z
+    value: -0.17150854
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[10].x
+    value: -0.8024061
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[10].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[10].z
+    value: -0.10126171
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[11].x
+    value: -0.8012312
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[11].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[11].z
+    value: 0.07609778
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[12].x
+    value: -0.8227298
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[12].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[12].z
+    value: 0.1861773
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[13].x
+    value: -0.84541327
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[13].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[13].z
+    value: 0.36506155
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[14].x
+    value: -0.94451433
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[14].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[14].z
+    value: 0.38444877
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[15].x
+    value: -0.9231363
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[15].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[15].z
+    value: 0.67158544
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[16].x
+    value: -0.8667927
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[16].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[16].z
+    value: 0.84239334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[17].x
+    value: -0.8986419
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[17].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[17].z
+    value: 0.8978053
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[18].x
+    value: -0.69097495
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[18].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[18].z
+    value: 0.9434052
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[19].x
+    value: -0.48327437
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[19].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[19].z
+    value: 0.90586126
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[20].x
+    value: -0.39748618
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[20].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[20].z
+    value: 0.930219
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[21].x
+    value: -0.30505225
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[21].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[21].z
+    value: 0.6809081
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[22].x
+    value: -0.16777334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[22].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[22].z
+    value: 0.5592385
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[23].x
+    value: -0.44714427
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[23].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[23].z
+    value: 0.0844549
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[24].x
+    value: -0.24564376
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[24].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[24].z
+    value: -0.15135942
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[25].x
+    value: -0.0552519
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[25].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[25].z
+    value: -0.24977249
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[26].x
+    value: 0.23430419
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[26].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[26].z
+    value: -0.35692495
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[27].x
+    value: 0.52300555
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[27].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[27].z
+    value: -0.3139454
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[28].x
+    value: 0.87339634
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[28].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[28].z
+    value: -0.261782
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[29].x
+    value: 0.9600814
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[29].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[29].z
+    value: -0.18025327
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[30].x
+    value: 1.098808
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[30].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[30].z
+    value: 0.07401006
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[31].x
+    value: 1.0879971
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[31].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[31].z
+    value: 0.330504
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[32].x
+    value: 1.028068
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[32].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[32].z
+    value: 0.8165697
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[33].x
+    value: 1.2508903
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[33].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[33].z
+    value: 0.8540792
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[34].x
+    value: 1.3820457
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[34].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[34].z
+    value: 0.87155473
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[35].x
+    value: 1.5507753
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[35].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[35].z
+    value: 0.82511663
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[36].x
+    value: 1.6876558
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[36].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[36].z
+    value: 0.63300174
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[37].x
+    value: 1.7801017
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[37].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[37].z
+    value: 0.3415176
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[38].x
+    value: 2.0558572
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[38].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[38].z
+    value: 0.28398305
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[39].x
+    value: 2.128293
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[39].y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.points.Array.data[39].z
+    value: 0.30322078
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.isClosed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.space
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.controlMode
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.autoControlLength
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.boundsUpToDate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.bounds.m_Center.x
+    value: 0.065998435
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.bounds.m_Center.y
+    value: -0.0035229847
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.bounds.m_Center.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.bounds.m_Extent.x
+    value: 1.9339974
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.bounds.m_Extent.y
+    value: 0.14163229
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.bounds.m_Extent.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.size
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[0]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[1]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[2]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[3]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[4]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[5]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[6]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[7]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[8]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[9]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[10]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[11]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[12]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.perAnchorNormalsAngle.Array.data[13]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.globalNormalsAngle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData._bezierPath.flipNormals
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.vertexPathUpToDate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.vertexPathMaxAngleError
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.vertexPathMinVertexSpacing
+    value: 0.01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showTransformTool
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showPathBounds
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showPerSegmentBounds
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.displayAnchorPoints
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.displayControlPoints
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.bezierHandleScale
+    value: 3.87
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.globalDisplaySettingsFoldout
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.keepConstantHandleSize
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showNormalsInVertexMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showBezierPathInVertexMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showDisplayOptions
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showPathOptions
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showVertexPathDisplayOptions
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showVertexPathOptions
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showNormals
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.showNormalsHelpInfo
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorData.tabIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: initialized
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

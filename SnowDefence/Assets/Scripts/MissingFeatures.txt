@@ -1,0 +1,41 @@
+- COISAS QUE FALTAM NO GAME -
+
+1. Feedback dos botões UI (feito)
+2. Feedback de máquinas quebradas
+3. Feedback de dano na base
+4. Feedback das minas sendo ativadas
+5. Arrumar rotação dos inimigos
+6. Mostrar range das turrets
+7. Implementar mais sons
+8. Tela de Win e End Game 
+9. Mudar bullets (estética)
+10. Colocar botão de acelerar o tempo
+11. Balancear
+12. Menu Pause 
+
+Joje - Contruir por ordem de importância
+
+X - Refazer o WaveSpawner
+X - Tela de Win e End Game
+X - Menu Pause 
+X - Colocar botão de acelerar o tempo
+X - Mostrar range das turrets
+X - Feedback de máquinas quebradas (Ativar e Desativar Fumaça)
+X - Feedback das minas sendo ativadas (Com emissão, animação, particulas e popup)
+X - Main menu try again
+X - Instanciar efeito quando boneco de morre (descartado)
+
+Guilherme - 
+X - Feedback de máquinas quebradas
+X - Feedback de dano na base (descartado)
+X - Arrumar rotação dos inimigos (Criado novo metodo de path, trocando waypoint por pathcreator)
+X - Mudar bullets (estética)
+
+Observações:
+
+Adicionado easteregg risadinha do gnomo
+Falha Em nudeUIBuildManagerNode não aparece hover depois de desclicar(Resolvido)
+Falha de repair nas turrets (Resolvido)
+Falha em qual round está a vitória (Resolvido)
+Falha do menu para volta do jogo em não passar o tempo (Resolvido)
+Falha nos botões de seleção de tempo com hitbox errada (Resolvido)
