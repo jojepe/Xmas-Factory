@@ -28,7 +28,7 @@ namespace PathCreation.Examples
         {
             pathCreator = path.GetComponent<PathCreator>();
         }
-
+        //hi people
         void Update()
         {
             if (pathCreator != null)
