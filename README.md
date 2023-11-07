@@ -1,4 +1,4 @@
 # Xmas-Factory
-Game made for ACM WINTER GAME JAM
+Winner tower defense game made for ACM WINTER GAME JAM with a Christmas theme. 
 
-This is my first comitt
+
